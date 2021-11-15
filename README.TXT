@@ -1,12 +1,7 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+# ConsumerReview Lab with Objects
+This is an Object-Based version of the ConsumerReview lab from the College Board.
+It takes the black-box-ness of the College Board version, by using an ArrayList instead of a HashMap and by including all code in methods. It also bases everything on individual Objects like SentimentList and Review to better compartmentalize the code.
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+This is semi-completed code, through Activity Four on my list of activities, <a href="https://docs.google.com/document/d/16WpkOqSf3-6WR9vLl8oqlHNyLfSD2UaoFm2Jr_bm4BI/edit?usp=sharing" target="_blank">here</a>
+
+Updated by Michael Buescher, mbuescher@hb.edu
