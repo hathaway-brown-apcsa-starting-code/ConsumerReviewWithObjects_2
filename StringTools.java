@@ -12,11 +12,11 @@ public class StringTools
      */
     public static String removePunctuation( String word )
     {
-        while(word.length() > 0 && !Character.isAlphabetic(word.charAt(0)))
+        while(word.length() > 0 && !Character.isNumberOrDigit(word.charAt(0)))
         {
             word = word.substring(1);
         } 
-        while(word.length() > 0 && !Character.isAlphabetic(word.charAt(word.length()-1)))
+        while(word.length() > 0 && !Character.isNumberOrDigit(word.charAt(word.length()-1)))
         {
             word = word.substring(0, word.length()-1);
         }
